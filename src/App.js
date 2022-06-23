@@ -1,5 +1,5 @@
-import Axios from 'axios';
-import React, {useEffect,useState} from 'react';
+
+import React from 'react';
 import './App.css';
 import MainRoute from './routes/MainRoute';
 import Currency from './routes/Currency';
@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
 
         <Routes>
-          <Route path="/" element={<MainRoute />}/>
-          <Route path="/currency/:id" element={<Currency />}/>
+          <Route path="/Cryptoland" element={<MainRoute />}/>
+          <Route path="/Cryptoland/currency/:id" element={<Currency />}/>
         </Routes>
 
       </BrowserRouter>
