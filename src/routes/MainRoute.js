@@ -32,7 +32,7 @@ function MainRoute() {
             {cryptolist.map((coin)=>{
               return (
               <div onClick={()=>{
-                navigate(`/Cryptoland/currency/${coin.id}`);
+                navigate(`/currency/${coin.id}`);
               }}>
                 <h3>{coin.name}</h3>
                 <h3>{coin.symbol}</h3>
