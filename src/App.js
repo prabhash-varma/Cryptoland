@@ -20,8 +20,8 @@ function App() {
       <BrowserRouter>
 
         <Routes>
-          <Route path="/" element={<MainRoute />}/>
-          <Route path="/currency/:id" element={<Currency />}/>
+          <Route path="/Cryptoland" element={<MainRoute />}/>
+          <Route path="/Cryptoland/currency/:id" element={<Currency />}/>
         </Routes>
 
       </BrowserRouter>
