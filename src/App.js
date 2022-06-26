@@ -7,6 +7,11 @@ import Currency from './routes/Currency';
 //import {BrowserRouter as Routes,Route} from 'react-router-dom';
 import {BrowserRouter, Route, Routes } from 'react-router-dom';
 
+
+
+
+
+
 function App() {  
   return (
 
