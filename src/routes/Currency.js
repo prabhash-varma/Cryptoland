@@ -48,16 +48,25 @@ function Currency() {
 
     {post ? (
     <>
-    <h1>Name: {coindata.name}</h1>
-    <h1>Symbol: {coindata.symbol}</h1>
-    <h1>Rank: {coindata.rank}</h1>
-    <h1>Price: {coindata.price_usd}</h1>
+    <div className="currency-container" >
+    <div className="currency-box">
+      
+        <h1>Name: {coindata.name}</h1>
+        <h1>Symbol: {coindata.symbol}</h1>
+        <h1>Rank: {coindata.rank}</h1>
+        <h1>Price: {coindata.price_usd}</h1>
+     
+    </div>
+
+    </div>
+    
+    
     </>)
     
     : 
     
     (
-      <Backdrop className={classes.backdrop} open>
+    <Backdrop className={classes.backdrop} open>
       <CircularProgress color="inherit" />
     </Backdrop>
 

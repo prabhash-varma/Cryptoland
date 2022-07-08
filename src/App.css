@@ -23,6 +23,7 @@
 .header{
   text-align: center;
   font-size: 20px;
+  color: white;
 }
 
 .cryptolist{
@@ -42,10 +43,34 @@
   margin-top:40px;
   box-shadow: 1px 2px 2px 1px black;
   text-align: center;
-
+  background-color: white;
 }
 
 .cryptolist div:hover{
   cursor:pointer;
   box-shadow: 3px 5px 5px 3px black;
+  background-color:black;
+  color:white;
+}
+
+.currency-container{
+  display: flex;
+  flex-direction: column;
+  color:white;
+  height:670px; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+.currency-box{
+  border: 1px solid black;
+  height:300px;
+  width:300px;
+  border-radius:10px;
+  margin-top:40px;
+  box-shadow: 1px 2px 2px 1px black;
+  text-align: center;
+  background-color: white;
+  color: black;
 }
